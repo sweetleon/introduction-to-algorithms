@@ -45,7 +45,7 @@ The recursive case did something, then returned a smaller version of the exact s
 
 ### The call stack
 
-In the recursive case, you'll notice we're not returning a value but instead, an entirely newly invoked function. By this, we can assume that recursive functions _do_ take up more memory than an iterative one. In addition, we can also trace the call stack, the order of functions called as until we get to a base case, none of these called functions returns.
+In the recursive case, you'll notice we're not returning a value but instead, an entirely newly invoked function. By this, we can assume that recursive functions _do_ take up more memory than an iterative one. However, in practice a [compiler/interpreter trick called "tail call elimination"](https://en.wikipedia.org/wiki/Tail_call) fixes that in many languages. In addition, we can also trace the call stack, the order of functions called as until we get to a base case, none of these called functions returns.
 
 Let's use a classic Fibonacci recursive function as an example. The fibonacci sequence is:
 
