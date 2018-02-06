@@ -192,13 +192,13 @@ We created a sorting algorithm for a list that works as follows:
 ```
 Start at the beginning of the list
 Traverse the list
-  Compare the current item, and the next, if there is one
+  Compare the current item, and the next, if any
   If the current item is greater than the next, swap them
 
 Do this "n" number of times
 ```
 
-An example is, the list `[ 5, 3, 7, 2, 1 ]` would look like `[ 5, 3, 2, 1, 7 ]` after the first traversal.
+An example is, the list `[ 5, 3, 7, 2, 1 ]` would look like `[ 3, 5, 2, 1, 7 ]` after the first traversal.
 
 - Write code for the full function. Your code should take an Array/List as an argument and return a sorted Array/List.
 - What is the Big O of this function?
