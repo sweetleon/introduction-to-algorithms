@@ -137,8 +137,8 @@ There's a lot going on in this program.
 
 - The fist `array` assignment runs in _O(1)_
 - The next loop runs in _O(n)_
-- The next nested loop runs in _O(n<sup>2</sup>)
-- The next nested loop runs in _O(n<sup>2</sup>) again
+- The next nested loop runs in _O(n<sup>2</sup>)_
+- The next nested loop runs in _O(n<sup>2</sup>)_ again
 
 Mathematically, our program could look like:
 
