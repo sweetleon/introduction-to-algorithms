@@ -149,7 +149,7 @@ O(1) + O(n) + O(n^2) + O(n^2)
 We can then combine like terms:
 
 ```
-O(1) + O(n) + 2O(n^2)
+O(1) + O(n) + 2*O(n^2)
 ```
 
 Drop our constants (remember, _O(1)_ is considered "constant time"):
