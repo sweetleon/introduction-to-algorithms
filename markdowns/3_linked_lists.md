@@ -16,11 +16,11 @@ int integerArray[10]
 
 This defines an Array, that only is allowed to possess Integers, and can have no more than 10 items in it. We were not allowed to just `.push` an arbitrary amount of items, of multiple types, into an Array like in JavaScript.
 
-When we want to add items to this C Array, we would need to create a new one of double the length (by convention), copy over all the current items, and add the new ones, then delete the old Array.
+When we want to add items to this C Array, we would need to create a new one of larger size (double by convention), copy over all the current items, and add the new ones, then delete the old Array.
 
 This can get either tedious, or expensive, particularly based on the data.
 
-Linked Lists are a way to keep adding items to an Array, without having to go through the whole protocol of Array doublling and copying.
+Linked Lists are a way to keep adding items to an Array, without having to go through the whole protocol of Array doubling and copying.
 
 ### Structure
 
