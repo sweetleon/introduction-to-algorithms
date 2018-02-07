@@ -152,5 +152,6 @@ function printStars(n) {
 
 - [Master Theorem](https://en.wikipedia.org/wiki/Master_theorem_(analysis_of_algorithms)
 - [Khan Academy on Recursion](https://www.khanacademy.org/computing/computer-science/algorithms/recursive-algorithms/a/recursionre)
-- [Wikipedia](https://en.wikipedia.org/wiki/Recursion_(computer_science)
+- [Wikipedia](https://en.wikipedia.org/wiki/Recursion_(computer_science))
 - Try Google'ing "recursion"
+- if you don't understand recursion, read the [chapter on recursion]()
