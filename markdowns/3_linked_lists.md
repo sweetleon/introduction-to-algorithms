@@ -2,7 +2,7 @@
 
 ![Linked Lists](images/linkedlists_final.png)
 
-Linked Lists are a reference based data structure. This is opposed to an indexed or key based data structure such as a JavaScript Array or Object. An exmaple of this is a Linked List is a train.
+Linked Lists are a reference based data structure. This is opposed to an indexed or key based data structure such as a JavaScript Array or Object. An example of a Linked List is a train.
 
 We have our engine, and an arbitrary number of following cars. The _n<sup>th</sup>_ car is reliant on the _n<sup>th</sup> - 1_ to stay connected. It does not "know" about the other cars in the train, just the one before it.
 
