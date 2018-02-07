@@ -102,7 +102,7 @@ Recursion was needed a lot more in languages and frameworks that did not have pr
 Try calling our `fib` function with an argument of `100`. You'll see that it'll take a very long time.
 - Using [memoization](https://en.wikipedia.org/wiki/Memoization), try and write a function that will return `fib(100)` in linear time (_O(n)_).
 
-> _Hint: it will not be a recursive function._
+> _Hint: it may not be a recursive function._
 
 #### #3
 
