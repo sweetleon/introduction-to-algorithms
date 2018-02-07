@@ -109,7 +109,7 @@ When we want to add on to our list, we need to iterate over the size of the list
 
 In addition, retrieving a specific element is also an _O(n)_ operation.
 
-Because Arrays operate in an indexed fashion, and if it does not need to grow (sucy as a JavaScript or other scripting langauge Array), it is an O(1) operation.
+Because Arrays operate in an indexed fashion, and if it does not need to grow (such as a JavaScript or other scripting langauge Array), it is an O(1) operation.
 
 ### Conclusion
 
